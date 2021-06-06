@@ -38,7 +38,7 @@ function setTimer() {
 
 // function on right click
 function setFlag(e, id) {
-  e.preventDefault()
+  //e.preventDefault()
   const button = document.getElementById(id);
   button.classList.contains('flag') ? button.classList.remove('flag') : button.classList.add('flag');
   return false;
